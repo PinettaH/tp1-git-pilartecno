@@ -20,6 +20,12 @@ function extractValues(data) {
 
 function arrayToLengthCounters(array) {
   // Tu código aquí
+  const elementos = {};
+  for (var i = 0; i < array.length; i++) {
+    var aux = array[i];
+    elementos[aux] = aux.length;
+  }
+  return elementos;
 }
 
 /*  
